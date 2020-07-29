@@ -1,0 +1,7 @@
+Models\Booking.class
+Models\Auth.class
+Models\BookingId.class
+Models\CreateBookingResponse.class
+Models\Reason.class
+Models\Bookingdates.class
+Models\Token.class

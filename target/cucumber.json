@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-28T04:47:03.751Z",
+        "line": 3,
+        "name": "Verify auth token is generated for valid credentials",
+        "description": "",
+        "id": "auth-token-api-tests;verify-auth-token-is-generated-for-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 601000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Auth - CreateToken end point is setup",
+            "match": {
+              "location": "stepDefinitions.AuthCreateToken.auth_create_token_end_point_is_setup()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Auth - CreateToken payload is created",
+            "match": {
+              "location": "stepDefinitions.AuthCreateToken.auth_create_token_payload_is_created()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7987000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Auth - CreateToken end point is hit",
+            "match": {
+              "location": "stepDefinitions.AuthCreateToken.auth_create_token_end_point_is_hit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "a valid token should be generated",
+            "match": {
+              "location": "stepDefinitions.AuthCreateToken.a_valid_token_should_be_generated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Auth token API tests",
+    "description": "",
+    "id": "auth-token-api-tests",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featureFiles/AuthCreateToken.feature",
+    "tags": []
+  }
+]

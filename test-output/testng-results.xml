@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7947" started-at="2020-07-28T10:05:35 IST" finished-at="2020-07-28T10:05:43 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerFiles.RunTestNGTest@ea1a8d5]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="7947" started-at="2020-07-28T10:05:35 IST" finished-at="2020-07-28T10:05:43 IST">
+      <class name="runnerFiles.RunTestNGTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runnerFiles.RunTestNGTest@ea1a8d5]" name="setUpClass" is-config="true" duration-ms="620" started-at="2020-07-28T10:05:35 IST" finished-at="2020-07-28T10:05:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerFiles.RunTestNGTest@ea1a8d5]" name="runScenario" duration-ms="6958" started-at="2020-07-28T10:05:36 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-28T10:05:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify auth token is generated for valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Auth token API tests]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runnerFiles.RunTestNGTest@ea1a8d5]" name="tearDownClass" is-config="true" duration-ms="313" started-at="2020-07-28T10:05:43 IST" finished-at="2020-07-28T10:05:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runnerFiles.RunTestNGTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
